@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && node src/app",
+    "start": "node src/app",
     "server": "nodemon src/app -e js,hbs",
-    "build": "npm install && npm run server"
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
